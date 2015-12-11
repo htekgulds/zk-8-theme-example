@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify -t reactify src/main/webapp/js/app/app.js > src/main/webapp/js/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.1.4",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "browserify-directory": "^1.0.2",
+    "browserify-shim": "^3.8.11",
+    "reactify": "^1.1.1"
+  },
+  "browserify-shim": {
+    "bootstrap": {
+      "exports": "bootstrap",
+      "depends": {
+        "jquery": "$"
+      }
+    }
+  }
+}

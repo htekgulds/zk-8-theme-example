@@ -1,0 +1,15 @@
+<zk:zk xmlns:zk="zk" xmlns="native" xmlns:x="xhtml">
+
+    <link rel="stylesheet" href="bowerlibs/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <x:div id="container"
+           apply="org.zkoss.bind.BindComposer"
+           viewModel="@id('vm') @init('tr.gov.tuik.zk.MyViewModel')"
+           validationMessages="@id('vmsgs')" >
+
+        <div id="app"></div>
+    </x:div>
+
+    <!-- Scripts -->
+    <x:script src="js/build.js" />
+</zk:zk>

@@ -9,3 +9,6 @@ buildNumber.properties
 
 .idea/
 *.iml
+bowerlibs/
+node_modules/
+

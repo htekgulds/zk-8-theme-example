@@ -1,0 +1,16 @@
+<zk:zk xmlns:zk="zk" xmlns="native">
+
+    <div id="app"></div>
+
+    <script src="~./bowerlibs/react/react.js" />
+    <script src="~./bowerlibs/react-dom/react-dom.js" />
+    <script src="~./js/JSXTransformer.js" />
+
+    <script type="text/jsx">
+        var ReactMessageBox = React.createClass({
+            render: function() {
+                return <h1>Hello World</h1>;
+            }
+        });
+    </script>
+</zk:zk>

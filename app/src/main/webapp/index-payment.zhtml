@@ -1,0 +1,18 @@
+<zk:zk xmlns:zk="zk" xmlns="native" xmlns:x="xhtml">
+    <x:script src="bowerlibs/react/react-with-addons.js" />
+    <x:script src="bowerlibs/react/react-dom.js" />
+    <x:script src="js/JSXTransformer.js" />
+    <x:script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js" />
+
+    <x:div id="app"
+           apply="org.zkoss.bind.BindComposer"
+           viewModel="@id('vm') @init('tr.gov.tuik.zk.MyViewModel')"
+           validationMessages="@id('vmsgs')" >
+
+        <div id="jsx"></div>
+
+        <div id="dom"></div>
+    </x:div>
+
+    <script type="text/jsx" src="js/app-payment.js" ></script>
+</zk:zk>

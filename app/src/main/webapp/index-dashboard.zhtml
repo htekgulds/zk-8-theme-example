@@ -1,0 +1,20 @@
+<zk:zk xmlns:zk="zk" xmlns="native" xmlns:x="xhtml">
+
+    <link rel="stylesheet" href="bowerlibs/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <x:div id="app"
+           apply="org.zkoss.bind.BindComposer"
+           viewModel="@id('vm') @init('tr.gov.tuik.zk.MyViewModel')"
+           validationMessages="@id('vmsgs')" >
+
+        <div id="app"></div>
+    </x:div>
+
+    <!-- Scripts -->
+    <x:script src="bowerlibs/react/react.js" />
+    <x:script src="bowerlibs/react/react-dom.js" />
+    <x:script src="bowerlibs/jquery/dist/jquery.min.js" />
+    <x:script src="bowerlibs/bootstrap/dist/js/bootstrap.min.js" />
+
+    <script src="js/build/app.js" ></script>
+</zk:zk>

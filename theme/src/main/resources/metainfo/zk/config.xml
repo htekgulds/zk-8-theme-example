@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<config-name>example</config-name><!-- used to resolve dependency -->
+	<depends>zul</depends>
+	<version>
+		<version-class>tr.gov.tuik.zk.Version</version-class>
+		<version-uid>0.1</version-uid>
+	</version>
+
+	<listener>
+		<listener-class>tr.gov.tuik.zk.ExampleThemeWebAppInit</listener-class>
+	</listener>
+</config>
