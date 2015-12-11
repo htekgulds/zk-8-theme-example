@@ -1,8 +1,7 @@
-/** @jsx React.DOM */
-
 var React = require('react');
-var $ = require('jquery');
-var bootstrap = require('bootstrap');
+window.jQuery = $ = require('jquery');
+var bootstrap = require('bootstrap/dist/js/bootstrap');
+
 
 var Dashboard = React.createClass({
 

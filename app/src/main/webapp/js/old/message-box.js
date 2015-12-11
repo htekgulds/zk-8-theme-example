@@ -1,8 +1,7 @@
-/** @jsx React.DOM */
-
 var React = require('react');
 var SubMessage = require('./sub-message');
 var Dashboard = require('./dashboard');
+var _ = require('lodash');
 
 var MessageBox = React.createClass({
 
