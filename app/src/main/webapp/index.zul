@@ -1,5 +1,5 @@
 <zk>
-    <?link rel="stylesheet" href="bowerlibs/bootstrap/dist/css/bootstrap.min.css" ?>
+    <?link rel="stylesheet" href="css/vendor/bootstrap.min.css" ?>
 
     <div id="container" apply="org.zkoss.bind.BindComposer"
         viewModel="@id('vm') @init('tr.gov.tuik.zk.MyViewModel')"
@@ -7,6 +7,16 @@
 
         <n:div id="app" xmlns:n="native" />
 
+        <!--
+        <Feed>
+            <ShowAddButton />
+            <FeedForm />
+
+            <FeedList>
+                <FeedItem />
+            </FeedList>
+        </Feed>
+        -->
     </div>
 
     <script src="js/build.js" />
