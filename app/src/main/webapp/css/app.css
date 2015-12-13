@@ -1,0 +1,15 @@
+#feedForm {
+    display: none;
+}
+.badge {
+    font-weight: bold;
+}
+.badge-success {
+    background: #5cb85c;
+}
+.badge-danger {
+    background: #d9534f;
+}
+.list-group-item {
+    padding: 20px 15px;
+}

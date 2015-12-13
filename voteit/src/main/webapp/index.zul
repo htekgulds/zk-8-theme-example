@@ -1,0 +1,25 @@
+<?page title="VoteIt App" ?>
+<?link rel="stylesheet" href="css/vendor/bootstrap-superhero.min.css" ?>
+<?link rel="stylesheet" href="css/app.css" ?>
+
+<zk>
+	<div apply="org.zkoss.bind.BindComposer"
+		viewModel="@id('vm')@init('tr.gov.tuik.zk.MyViewModel')"
+		validationMessages="@id('vmsgs')">
+
+		<n:div id="app" xmlns:n="native" />
+
+		<!--
+        <Feed>
+            <ShowAddButton />
+            <FeedForm />
+
+            <FeedList>
+                <FeedItem />
+            </FeedList>
+        </Feed>
+        -->
+	</div>
+</zk>
+
+<?script src="js/build.js"?>

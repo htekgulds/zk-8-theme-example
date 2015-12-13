@@ -1,7 +1,8 @@
 <zk>
-    <?link rel="stylesheet" href="css/vendor/bootstrap.min.css" ?>
+    <?link rel="stylesheet" href="css/vendor/bootstrap-superhero.min.css" ?>
+    <?link rel="stylesheet" href="css/app.css" ?>
 
-    <div id="container" apply="org.zkoss.bind.BindComposer"
+    <div apply="org.zkoss.bind.BindComposer"
         viewModel="@id('vm') @init('tr.gov.tuik.zk.MyViewModel')"
         validationMessages="@id('vmsgs')">
 
@@ -19,5 +20,5 @@
         -->
     </div>
 
-    <script src="js/build.js" />
+    <script src="js/build.js" defer="true"/>
 </zk>

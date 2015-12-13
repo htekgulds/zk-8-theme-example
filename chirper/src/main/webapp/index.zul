@@ -1,0 +1,14 @@
+<?page title="Chipper App" ?>
+<?link rel="stylesheet" href="css/vendor/bootstrap-superhero.min.css" ?>
+<?link rel="stylesheet" href="css/app.css" ?>
+<zk>
+	<div apply="org.zkoss.bind.BindComposer"
+		viewModel="@id('vm')@init('tr.gov.tuik.zk.MyViewModel')"
+		validationMessages="@id('vmsgs')" sclass="container"
+		xmlns:n="native">
+		<n:h1 class="jumbotron">ZK React Example</n:h1>
+		<hlayout><n:h4 id="labelCount">Count: </n:h4></hlayout>
+		<button label="add" zclass="btn btn-primary" onClick="@command('cmd')"/>
+	</div>
+</zk>
+<?script src="js/build.js"?>
